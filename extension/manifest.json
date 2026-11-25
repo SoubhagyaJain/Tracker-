@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AI Career OS Learning Companion",
+  "version": "1.0.0",
+  "description": "Review and send manually entered Udemy course progress and study sessions to AI Career OS.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "optional_host_permissions": [
+    "http://127.0.0.1/*",
+    "http://localhost/*"
+  ],
+  "action": {
+    "default_title": "AI Career OS Learning",
+    "default_popup": "popup.html"
+  }
+}

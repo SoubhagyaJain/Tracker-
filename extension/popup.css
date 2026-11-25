@@ -1,0 +1,14 @@
+*{box-sizing:border-box}
+body{width:365px;margin:0;padding:14px;background:#f1ede5;color:#24211d;font:13px system-ui,sans-serif}
+h1{font-size:18px;margin:0} h2{font-size:14px;margin:0} p{margin:5px 0 8px}
+header,details,section{border:1px solid #3c372a22;background:#fff9;border-radius:12px;padding:10px;margin:0 0 8px}
+summary{font-weight:650;cursor:pointer;margin-bottom:5px}
+label{display:grid;gap:3px;margin:6px 0;color:#3d382c}
+input,select,button{width:100%;font:inherit;min-width:0;border:1px solid #3c372a45;border-radius:6px;background:#fff;color:inherit;padding:5px 7px}
+button{width:auto;cursor:pointer;font-weight:600} button[type=submit],#send{background:#282520;color:#fff}
+button:disabled{opacity:.5;cursor:default} :focus-visible{outline:2px solid #534c3b;outline-offset:1px}
+.buttons,.fields{display:flex;gap:5px;flex-wrap:wrap}.fields label{flex:1;min-width:90px}
+#elapsed{font:600 21px system-ui;font-variant-numeric:tabular-nums}
+#status{min-height:16px}
+ul{padding-left:18px;margin:0 0 8px} li{margin:4px 0;overflow-wrap:anywhere} li button{margin:3px 0 0 4px}
+
